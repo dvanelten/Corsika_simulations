@@ -1,0 +1,42 @@
+RUNNR      15
+NSHOW      1
+PRMPAR     5626
+       Simulation zenith angle
+THETAP     15.0 15.0
+       Simulation azimuth angle
+PHIP       0.0 0.0
+       Energy under which to stop simulation, hadrons, muons, electron, gammas.
+       Taken from FACT, electron and gamma cuts higher than default.
+ECUTS      0.3 0.3 0.02 0.02
+       E^ESLOPE spectrum
+ESLOPE     0.0
+ERANGE     500000.0 500000.0
+SEED       151 0 0
+SEED       152 0 0
+SEED       153 0 0
+SEED       154 0 0
+OBSLEV     2835E2
+       Starting height 
+FIXCHI     0.
+MAGNET     16.7 -52.2
+ELMFLG     T T
+       Do not write particle output files
+PAROUT     F F
+       Do not print lots of infos to stdout
+MAXPRT     0
+       Eventio outputfile for cherenkov photons
+TELFIL     ./photons.eventio
+       Telescope Position x, y, z and radius in cm
+TELESCOPE  0.0 0.0 0. 100.0
+       South Pole atmosphere, take refraction into account
+ATMOSPHERE 9 T
+CWAVLG     290 700
+       Reuse 1, 250 m scattering radius
+CSCAT      1 0.0 0
+       Bunchsize 1
+CERSIZ     1
+       No Cherenkov file output
+CERFIL     F
+       time relative to simulation start and not first interaction
+TSTART     T
+EXIT
